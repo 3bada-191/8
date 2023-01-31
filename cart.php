@@ -61,7 +61,7 @@
         $ip=getIp();
     if (isset($_POST['update_car'])) {
       foreach($_POST['obd'] as $key => $rev) {
-       $update_rev = "update cart set raw='$rev' where p_id = '$pro_id_t' AND ip_add = '$ip'";
+       $update_rev = "update cart set raw='$rev' where p_id = '$key' AND ip_add = '$ip'";
        $run_u_rev = mysqli_query($connect, $update_rev);
        $_SESSION['obd'] = $rev;
         
