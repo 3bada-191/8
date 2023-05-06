@@ -1,0 +1,42 @@
+body{
+    direction: rtl;  
+}
+
+.c{
+    clear: both;
+}
+
+.w{
+width: auto;
+    margin-right: 50px;
+    margin-left: auto;
+}
+/*menubar style start*/
+
+.menubar{
+    background-image: url(../image/menu.jpg);
+    background-position: right;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-size: 1370px;
+}
+.menubar ul{list-style: none}
+.menubar ul li{
+    float: right;
+    padding: 15px 3px;
+    margin-left: 5px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 14px;
+    color: #ff7f27;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.menubar ul li a:hover{
+    background: #ff7f27;
+    color: #fff;
+}
+/*menubar style end*/
